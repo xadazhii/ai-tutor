@@ -8,14 +8,13 @@ The system implements **Retrieval-Augmented Generation (RAG)** to transform stat
 
 ### **Table of Contents**
 
-- [Visual Overview](#-visual-overview)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Multimedia Processing Pipeline](#-multimedia-processing-pipeline)
-- [Tech Stack](#-tech-stack)
-- [Installation & Setup](#-installation--setup)
-- [Future Roadmap](#-future-roadmap)
-- [License](#-license)
+- [Visual Overview](#visual-overview)
+- [Key Features](#key-features)
+- [System Architecture](#system-architecture)
+- [Tech Stack](#tech-stack)
+- [Installation & Setup](#installation--setup)
+- [Future Roadmap](#future-roadmap)
+- [License](#license)
 
 ---
 
