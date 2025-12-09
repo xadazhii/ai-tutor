@@ -84,7 +84,7 @@ A lightweight, single-page interface using **ES6 JavaScript** and **Webpack**. I
 * **AI Orchestration:** LangChain4j, Ollama
 * **Models:** Llama 3 (Text), LLaVA (Vision)
 * **Media Tools:** FFmpeg, whisper.cpp
-* **Database:** PostgreS
+* **Database:** PostgreSQL
 * **Frontend:** HTML5, CSS3, JS
 
 ---
