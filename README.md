@@ -23,14 +23,19 @@ The system implements **Retrieval-Augmented Generation (RAG)** to transform stat
 
 > *The AI Tutor interface showing the chat panel, file upload module, and real-time SSE streaming.*
 
-<img width="1680" height="924" alt="Screenshot 2025-11-18 at 17 55 06" src="https://github.com/user-attachments/assets/ccd49fe0-eef8-4155-b24f-e735cb0dd5e0" />
-<br>
-<img width="1677" height="904" alt="Screenshot 2025-11-18 at 17 29 58" src="https://github.com/user-attachments/assets/1328696e-9592-4e93-9f4d-9a74b8f09c46" />
-<br>
-<img width="1680" height="923" alt="Screenshot 2025-11-19 at 15 10 56" src="https://github.com/user-attachments/assets/90d72ee5-2dea-46a8-ade5-37a88995bc9c" />
-<br>
-<img width="1680" height="923" alt="Screenshot 2025-11-19 at 12 39 46" src="https://github.com/user-attachments/assets/fa8db1c7-f73a-4fff-861e-71127a2b6182" />
+<img width="1680" alt="Main Interface" src="https://github.com/user-attachments/assets/ccd49fe0-eef8-4155-b24f-e735cb0dd5e0" />
 
+<br><br>
+
+<img width="1677" alt="Context Analysis" src="https://github.com/user-attachments/assets/1328696e-9592-4e93-9f4d-9a74b8f09c46" />
+
+<br><br>
+
+<img width="1680" alt="Testing Mode Question" src="https://github.com/user-attachments/assets/90d72ee5-2dea-46a8-ade5-37a88995bc9c" />
+
+<br><br>
+
+<img width="1680" alt="Feedback & Results" src="https://github.com/user-attachments/assets/fa8db1c7-f73a-4fff-861e-71127a2b6182" />
 ---
 
 ### **Key Features**
@@ -79,8 +84,8 @@ A lightweight, single-page interface using **ES6 JavaScript** and **Webpack**. I
 * **AI Orchestration:** LangChain4j, Ollama
 * **Models:** Llama 3 (Text), LLaVA (Vision)
 * **Media Tools:** FFmpeg, whisper.cpp
-* **Database:** In-Memory Embedding Store, H2/JPA (Metadata)
-* **Frontend:** HTML5, CSS3, Vanilla JS
+* **Database:** PostgreS
+* **Frontend:** HTML5, CSS3, JS
 
 ---
 ### Installation & Setup
