@@ -1,0 +1,47 @@
+html, body, #root-container {
+  height: 100%;
+}
+
+chat,
+#root-container > chat,
+.chat-root,
+div.message-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+div.message-container {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px;
+  padding-top: 88px;
+  gap: 4px;
+  align-items: stretch;
+  box-sizing: border-box;
+  padding-bottom: 120px;
+  justify-content: flex-start;
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new-chat-container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: calc(100vh - 6vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+
+chat-input {
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}

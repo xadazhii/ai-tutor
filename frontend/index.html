@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link rel="stylesheet" href="/css/style.css">
+  <title>AI Tutor</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js" defer></script>
+
+</head>
+<body>
+<script src="https://YanSchw.github.io/tiny-components/tiny-components.js" defer></script>
+
+<script src="/js/api.js" defer></script>
+<script src="/js/theme.js" defer></script>
+<script src="/js/chat.js" defer></script>
+<script src="/js/header.js" defer></script>
+<script src="/js/chatinput.js" defer></script>
+<script src="/js/message.js" defer></script>
+<script src="/js/side-bar.js" defer></script>
+<script src="/js/upload.js" defer></script>
+
+<side-bar>
+  <div class="chats-container"></div>
+</side-bar>
+
+<div id="root-container">
+  <header></header>
+  <chat chat-id="0"></chat>
+</div>
+
+</body>
+</html>
